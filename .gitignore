@@ -1,0 +1,30 @@
+# virtual env
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env files (secrets)
+.env
+
+# vscode
+.vscode/
+
+# os files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# database local files
+*.sqlite3
+
+# testing cache
+.pytest_cache/
+
+# alembic generated cache
+alembic/versions/__pycache__/
